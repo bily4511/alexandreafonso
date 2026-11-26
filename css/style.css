@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --marromcafe: #4a3525;
+    --cremeclaro: #f7f3ee;
+    --laranja: #e6822a;
+    --marroescuro: #2b2118;
+}
+
+
+.sidebar{
+    background-color: var(--marroescuro);
+    color: var(--cremeclaro);
+    padding: 1.5rem;
+  
+  ul{
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+}
+
